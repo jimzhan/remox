@@ -1,0 +1,27 @@
+{
+  "name": "remox",
+  "version": "0.1.0",
+  "description": "React & MobX boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimzhan/remox.git"
+  },
+  "keywords": [
+    "react",
+    "mobx",
+    "es7",
+    "es6",
+    "boilerplate",
+    "skeleton"
+  ],
+  "author": "Jim Zhan <jim.zhan@me.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jimzhan/remox/issues"
+  },
+  "homepage": "https://github.com/jimzhan/remox#readme"
+}
