@@ -1,9 +1,3 @@
 {
-  "editor.tabSize": 2,
-  "xo.enable": true,
-  "xo.options": {
-    "esnext": true,
-    "semicolon": false,
-    "space": 2
-  }
+  "editor.tabSize": 2
 }
