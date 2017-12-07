@@ -7,11 +7,14 @@
     "lint": "eslint --ext=.js,jsx src test",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "xo && react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-app-rewired test --env=jsdom"
   },
   "eslintConfig": {
-    "extends": ["standard", "standard-react"]
+    "parser": "babel-eslint",
+    "extends": [
+      "standard",
+      "standard-react"
+    ]
   },
   "repository": {
     "type": "git",
@@ -37,6 +40,8 @@
     "react-scripts": "^1.0.17"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-import": "^2.8.0",
