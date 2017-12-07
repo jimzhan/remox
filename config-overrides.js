@@ -3,8 +3,12 @@ const rewireEslint = require('react-app-rewire-eslint')
 
 module.exports = function override (config, env) {
   config = injectBabelPlugin([
+    'transform-class-properties',
     'transform-decorators-legacy',
-    'transform-class-properties'
+    ['import', {
+      libraryName: 'antd',
+      style: 'less'
+    }]
   ], config)
   config = rewireEslint(config, env)
   return config
